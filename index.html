@@ -21,7 +21,7 @@ layout: default
         {% endif %}
         <div class="post-date">
             <time>{{ post.date | date_to_string }}</time>
-            <tags>{{ post.tag }}</tags>
+            <tags>{% for tag in post.tags %}{{tag}}{% endfor %}</tags>
         </div>
     </div>
     {% endfor %} {% if paginator.total_pages > 1 %}
