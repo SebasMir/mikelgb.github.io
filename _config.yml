@@ -1,5 +1,5 @@
 name:               "Mikel G. B."
-description:        "A minimalistic jekyll theme for humans"
+description:        "Descripción"
 
 url:                ""
 author:             "mikelgb"
@@ -14,7 +14,7 @@ github:             "mikelgb"
 
 disqus_shortname:   ""
 
-background:         "http://themusicemporium.com/isotope/e/es16116_750_5.jpg"
+background:         "http://simonandersonfitness.co.uk/wp-content/uploads/2013/05/bg-black-pattern.jpg"
 
 paginate:           5
 paginate_path:      "/page:num/"
