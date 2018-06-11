@@ -4,7 +4,7 @@ description:        "A minimalistic jekyll theme for humans"
 url:                ""
 author:             "mikelgb"
 email:              "ginesborrasm@gmail.com"
-gravatar_hash:      "dfg"
+gravatar_hash:      "624d356097567ee912cae10597de2b55"
 #twitter:            ""
 email:              "ginesborrasm@gmail.com"
 github:             "mikelgb"
@@ -14,7 +14,7 @@ github:             "mikelgb"
 
 disqus_shortname:   ""
 
-background:         "http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
+background:         "http://themusicemporium.com/isotope/e/es16116_750_5.jpg"
 
 paginate:           5
 paginate_path:      "/page:num/"
