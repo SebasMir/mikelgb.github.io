@@ -8,7 +8,11 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-date">
     <time>{{ page.date | date_to_string }}</time>
-    <tags>{{ page.tags }}</tags>
+    <tags>{{ page.tags }}
+    	{% for tag in page.tags %}
+    		\\ {{tag}}
+    	{% endfor %}
+    </tags>
   </div>
   {{ content }}
 </div>
