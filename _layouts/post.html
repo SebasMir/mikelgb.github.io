@@ -11,8 +11,7 @@ layout: default
   </div>
   {{ content }}
   <tags>
-    {% assign post_tags = page.tags | split: "," | remove_first: '["' | remove_first: '"]' %}
-    {{ post_tags }}
+    {% assign post_tags = page.tags | split: "," %}
     {% for tag in post_tags %}
       - {{ tag }}
     {% endfor %}
