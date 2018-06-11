@@ -8,6 +8,10 @@
         <img src="http://www.gravatar.com/avatar/{{ site.gravatar_hash }}?s=140" class="img-circle" />
         <h3>{{ site.name }}</h3>
         <p>{{ site.description }}</p>
+        <nav class="bloghead-nav">
+            {% for nav in site.nav %}
+            <a href="{{ nav.href }}">{{ nav.name }}<span> &nbsp;/&nbsp; </span></a> {% endfor %}
+        </nav>
         <ul class="social">
             {% if site.github %}
             <a type="button" href="http://github.com/{{ site.github }}">
