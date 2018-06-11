@@ -10,10 +10,10 @@ layout: default
     <time>{{ page.date | date_to_string }}</time>
   </div>
   {{ content }}
-  <tags>b
+  <tags>c
     {% assign post_tags = page.tags | split: "," %}
     {{ post_tags }}
-    {% for tag in page_tags %}
+    {% for tag in page.tags %}
       - {{ tag }}
     {% endfor %}
   </tags>
