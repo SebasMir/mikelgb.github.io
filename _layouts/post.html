@@ -13,7 +13,7 @@ layout: default
   <tags>c
     {% assign post_tags = page.tags | split: "," %}
     {{ post_tags }}
-    {% for tag in page.tags %}
+    {% for tag in {page.tags | split: ","} %}
       - {{ tag }}
     {% endfor %}
   </tags>
