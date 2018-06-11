@@ -1,5 +1,5 @@
 ---
-title: Whats Jekyll?
+title: Whatds Jekyll?
 tags: "Info", "Patata"
 ---
 
