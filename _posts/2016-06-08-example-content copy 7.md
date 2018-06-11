@@ -3,6 +3,7 @@ title:        "Sample Pom,m,m,st"
 description:  "A short description of the page's content"
 image:        "http://placehold.it/400x200"
 author:       "Jhonathan"
+tags:         "Music"
 ---
 
 An h1 header
