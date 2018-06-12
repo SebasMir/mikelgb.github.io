@@ -26,6 +26,29 @@ body{
 	color: #fff;
 }
 
+.sidebar-menu {
+	margin: 15px; 
+	font-size: 17px; 
+}
+
+.sidebar-menu a {
+	color: white; 
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.sidebar-menu a:hover {
+	color: #e6e6e6; 
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.sidebar-menu a:focus {
+	color: white; 
+	font-weight: bold;
+	text-decoration: none;
+}
+
 a.nav-link {
 	padding-bottom: 5px;
 	padding-top: 7px;
