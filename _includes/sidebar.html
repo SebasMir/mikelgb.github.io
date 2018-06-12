@@ -4,8 +4,8 @@
 		<img src="//www.gravatar.com/avatar/{{site.author.email_md5}}?s=150" class="img-circle" />
 	</a>
 	<h3 class="title">
-        <a href="{{ site.BASE_PATH }}/">{{ site.title }}</a>
-    </h3>
+		<a href="{{ site.BASE_PATH }}/">{{ site.title }}</a>
+	</h3>
 </header>
 
 {% if site.author.bio %}
@@ -13,6 +13,16 @@
 	{{ site.author.bio }}
 </div>
 {% endif %}
+
+<div>
+	<ul class="dropdown-menu" role="menu">
+		<li><a href="{{ site.BASE_PATH}}/"><i class="fa fa-home"></i>Home</a></li>
+		<li><a href="{{ site.BASE_PATH}}/{{ site.categories_path }}"><i class="fa fa-folder"></i>Categories</a></li>
+		<li><a href="{{ site.BASE_PATH}}/{{ site.tags_path }}"><i class="fa fa-tags"></i>Tags</a></li>
+		<li class="divider"></li>
+		<li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
+	</ul>
+</div>
 
 <div id="contact-list" class="text-center">
 	<ul class="list-unstyled list-inline">
