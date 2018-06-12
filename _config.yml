@@ -25,7 +25,7 @@ author:
   #twitter: dbtek
   #pinterest: asd123
   #linkedin: asd123
-  bio: Your stylish, minimalist theme!
+  bio: Descripción de mierda!
   email_md5: 624d356097567ee912cae10597de2b55
 
 rss_path: feed.xml
@@ -33,7 +33,7 @@ categories_path: categories.html
 tags_path: tags.html
 
 # set it as url of an image
-sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+sidebar_background_image: http://simonandersonfitness.co.uk/wp-content/uploads/2013/05/bg-black-pattern.jpg
 
 BASE_PATH:
 
