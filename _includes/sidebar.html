@@ -43,6 +43,13 @@
 			</a>
 		</li>
 		{% endif %}
+		{% if site.author.youtube %}
+		<li>
+			<a class="btn btn-default btn-sm" href="https://www.youtube.com/channel/{{ site.author.youtube }}">
+				<i class="fa fa-youtube fa-lg"></i>
+			</a>
+		</li>
+		{% endif %}
 		{% if site.author.email %}
 		<li>
 			<a class="btn btn-default btn-sm" href="mailto:{{ site.author.email }}">
