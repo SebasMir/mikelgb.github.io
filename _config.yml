@@ -1,54 +1,40 @@
-name:               "Mikel G. B."
-description:        "Descripción de la página"
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-url:                ""
-author:             "mikelgb"
-email:              "ginesborrasm@gmail.com"
-gravatar_hash:      "624d356097567ee912cae10597de2b55"
-#twitter:            ""
-email:              "ginesborrasm@gmail.com"
-github:             "mikelgb"
-instagram:          "miquelgb"
-#pinterest:          ""
-#linkedin:           ""
-#facebook:           ""
-
-disqus_shortname:   ""
-
-background:         "http://simonandersonfitness.co.uk/wp-content/uploads/2013/05/bg-black-pattern.jpg"
-
-paginate:           5
-paginate_path:      "/page:num/"
-
-baseurl:            ""
-permalink:          /:year/:month/:day/:title/
-
-markdown:           kramdown
-
-nav:
-  - name:           "About"
-    href:           "/about"
-  - name:           "Music"
-    href:           "/music"  
-  - name:           "Download"
-    href:           "/releases"
-
-sass:
-  style:            :compressed
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+disqus: dbyll
+google_analytics: dbyll
+title: dbyll
 
 defaults:
   -
     scope:
-      path:         ""
-      type:         "pages"
+      path: "" # empty string for all files
     values:
-      layout:       "page"
-  -
-    scope:
-      path:         ""
-      type:         "posts"
-    values:
-      layout:       "post"
+      title: dbyll
 
-gems:
+description: Stylish Jekyll Theme
+author:
+  name: dbyll
+  email: dbyll@ismaildemirbilek.com
+  github: dbtek
+  twitter: dbtek
+  pinterest: asd123
+  linkedin: asd123
+  bio: Your stylish, minimalist theme!
+  email_md5: 726351295ec82e145928582f595aa3aa
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+plugins:
   - jekyll-paginate

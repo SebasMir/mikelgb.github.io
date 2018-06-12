@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{% include header.html %}
+
+<div class="content post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <div class="post-date">
+    <time>{{ page.date | date_to_string }}</time>
+  </div>
+  {{ content }}
+  <tags>k
+    {% assign post_tags = page.tags | split: "," %}
+    {{ post_tags }}
+    {% for tag in page.tags | split: "," %}
+      - {{ tag }}
+    {% endfor %}
+  </tags>
+</div>
+{% if site.disqus_shortname %}
+  {% include disqus_comments.html %}
+{% endif %}
