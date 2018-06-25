@@ -5,8 +5,8 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
-#disqus: dbyll
-#google_analytics: dbyll
+#disqus: 
+#google_analytics: 
 title: mikelgb
 
 defaults:
@@ -22,9 +22,9 @@ author:
   email: ginesborrasm@gmail.com
   github: mikelgb
   instagram: miquelgb
-  #twitter: dbtek
-  #pinterest: asd123
-  #linkedin: asd123
+  #twitter: 
+  #pinterest: 
+  #linkedin: 
   bio: Site description!
   email_md5: 624d356097567ee912cae10597de2b55
   youtube: UCdPebbUb8f0RaCToEoeAb-Q
